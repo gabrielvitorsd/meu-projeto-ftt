@@ -1,0 +1,36 @@
+/*CSS define a parte visual.
+
+/*
+Para pegar o código da fonte é necessário ir no "Google Fonts" e adicionar no index.html.
+    font-family: 'EB Garamond', serif;
+    font-family: 'Open Sans', sans-serif;
+*/
+
+*{/*seletor universal. Ela seleciona todos os elementos HTML*/
+  margin: 0; /*A margem é o espaço ao redor de um elemento, que pode ser utilizado para criar espaçamento entre elementos vizinhos.*/
+  padding: 0; /*O preenchimento (padding) é o espaço entre o conteúdo do elemento e sua borda.*/
+  box-sizing: border-box; /*Define o modelo de caixa a ser usado pelo navegador para calcular a largura e a altura totais de um elemento.*/
+}
+
+body{/* é o elemento principal que contém todo o conteúdo visível de uma página da web.*/
+  background-color: #BBA39F; /*Ela permite que você escolha qualquer cor para preencher a área de fundo do elemento, seja ele um bloco de texto, uma caixa, ou qualquer outro tipo de elemento.*/
+}
+
+p, span, h3, h4{
+/*
+Elementos <p> representam parágrafos de texto.
+Elementos <span> são elementos de linha que são usados para aplicar estilos a partes específicas de texto em um documento HTML sem quebrar a linha.
+Elementos <h3> representam cabeçalhos de nível 3 em uma página, geralmente usados para seções ou subtítulos.
+Elementos <h4> representam cabeçalhos de nível 4 em uma página, geralmente usados para subdivisões de seções ou títulos menores.
+*/
+  font-family: 'Open Sans', sans-serif; /*Esta propriedade define a fonte ou a lista de fontes que serão aplicadas ao texto do elemento selecionado.*/
+  text-shadow: 2px 2px 4px #535151; /*é utilizada para adicionar sombras ao texto de um elemento HTML. Isso pode ser usado para criar efeitos visuais interessantes e melhorar a legibilidade do texto.*/
+  font-size: 1rem; /*é usada para definir o tamanho da fonte, 1rem significa que o tamanho da fonte será igual ao tamanho de fonte do elemento pai*/
+}
+
+h1{/*O <h1> é um elemento de cabeçalho de nível 1, frequentemente utilizado para títulos principais ou importantes em uma página da web.*/
+  font-family: 'EB Garamond', serif;
+  font-size: 3rem;
+  color: #000;
+  text-shadow: 2px 2px 4px #535151;
+}

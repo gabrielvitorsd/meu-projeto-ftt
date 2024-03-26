@@ -1,0 +1,5 @@
+div.circle{
+    border-radius: 50%; /*raio de curvatura*/
+    background-color: #644D45; /*cor de fundo do elemento */
+    border:1px solid #644D45; /*borda do elemento*/
+}
